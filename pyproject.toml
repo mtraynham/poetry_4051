@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dep_a"
+version = "0.1.0"
+description = ""
+authors = ['mtraynham <test@test.com>']
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dep_b = { git = 'https://github.com/mtraynham/poetry_4051.git', rev = '1a00be62' }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
