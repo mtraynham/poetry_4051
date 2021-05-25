@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dep-b
+Version: 0.1.0
+Summary: 
+Author: mtraynham
+Author-email: test@test.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dep_c @ git+https://github.com/mtraynham/poetry_4051.git@f886f69d
